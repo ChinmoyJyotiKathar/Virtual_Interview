@@ -1,0 +1,69 @@
+python
+
+
+
+What does this code output:
+printdef f(x,l=[]):
+    for i in range(x):
+        l.append(i*i)
+    print(l) 
+
+f(2)
+f(3,[3,2,1])
+f(3)
+
+Explain about Python's parameter passing mechanism?
+
+ As Everything in Python is an Object, Explain the characteristics of Python's Objects.
+
+ What is Web Scraping? How do you achieve it in Python?
+
+ How do you create a dictionary which can preserve the order of pairs?
+
+
+
+
+c
+
+When should we use pointers in a C program?
+
+What are local static variables? What is their use?
+
+What are static functions? What is their use?
+
+What is the difference between declaration and definition of a variable/function
+
+What is scope of a variable? How are variables scoped in C?
+
+
+
+c plus plus
+
+What is Object Oriented Programming? And Why use it?
+
+What is Polymorphism? How is it supported by C++?
+
+What is Inheritance? What is the purpose?
+
+What is Abstraction?
+
+How is C + + different from C?
+
+
+
+html
+
+php
+
+css
+
+bootstrap
+
+sql
+
+mysql
+
+javascript
+
+competetive programming
+

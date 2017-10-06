@@ -1,0 +1,23 @@
+<style>
+
+li {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ </style>
+
+{% for i in '0123456789'|make_list  %}
+    <p> {{ i }} </p>
+{% endfor %}
+
+{% if all_albums %}
+    <ul>
+        {% for album in all_albums %}
+        <li><a href ="/polls/{{ album.id }}"> {{ album.album_title }} </a></li>
+    </br>
+        {% endfor %}
+</ul>
+ {% else %}
+    <h3> Empty object here! </h3>
+{% endif %}
